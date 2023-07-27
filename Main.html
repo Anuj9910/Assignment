@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Assessment</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <img class="logo" src="https://deepthought.education/assets/images/logo/logo.svg">
+            <div class="menuitem">
+                <img class="home" src="assets/home.svg">
+                <img class="tools" src="assets/tools.svg">
+                <img class="notification" src="assets/notification.svg">
+                <img class="profile" src="assets/photo.svg">
+
+                <Div class="dropdown-menu">
+                    <img class="dot1" src="assets/Ellipse3.svg">
+                    <img class="dot2" src="assets/Ellipse3.svg">
+                    <img class="dot3" src="assets/Ellipse3.svg">
+                </Div>
+            </div>
+        </nav>
+        <aside class="notice">
+            <div class="text1">
+                <img class="cross-logo" src="assets/icon1.svg">
+                <p>Notice</p>
+                <p id="board">Board</p>
+            </div>
+        </aside>
+        <main class="container">
+            <h1 class="heading">Technical Project Management</h1>
+            <button class="submit">Submit task</button>
+            <section class="block1">
+                <h1>Explore the world of management</h1>
+                <p>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
+            </section>
+
+            <div id="container"> </div>
+            <aside class="journeyboard" id="journeyboard">
+                <div class="arrow">
+                    <button class="arrowbtn" type="button" onclick="expandboard()"><img src="assets/arrow.svg"></button>
+                </div>
+                <img class="gif" src="assets/giphy.gif">
+                <div class="boardexpand" id="expendedboard">
+                    <div class="arrow2" id="arrow2">
+                        <p>Journey Board</p>
+                        <button class="arrowbtn2" type="button" onclick="collapseboard()"><img src="assets/arrow.svg"></button>
+                    </div>
+                    <div class="board" id="board">
+                        <ul class="boardlist">
+                            <li><strong>Explore the world of management</strong></li><br>
+                            <li>Technical Project Management</li>
+                            <li>Threadbuild</li>
+                            <li>Structure your pointers</li>
+                            <li>4SA Method</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <img title="questionmark" class="questionmark" src="assets/question-mark.svg">
+            <img title="meeting" class="meeting" src="assets/meeting.svg">
+            <img title="schedule" class="schedule" src="assets/schedule.svg">
+        </main>
+    </body>
+</html>
